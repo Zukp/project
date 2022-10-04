@@ -56,28 +56,20 @@ const DIC = styled("div")`
 const PARAGRAF = styled("p")`
   width: 696px;
   height: 102px;
-
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 700;
   font-size: 46px;
   line-height: 110%;
-  /* or 51px */
-
   color: #333333;
   @media only screen and (max-width: 414px) {
     width: 302px;
     height: 52px;
-    left: 20px;
-    top: 1958px;
-
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 110%;
-    /* or 26px */
-
     color: #333333;
   }
 `;
@@ -96,8 +88,6 @@ const P = styled("p")`
   font-weight: 700;
   font-size: 20px;
   line-height: 140%;
-  /* or 28px */
-
   color: #333333;
 `;
 const H4 = styled("h4")`
@@ -109,8 +99,6 @@ const H4 = styled("h4")`
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-  /* identical to box height, or 24px */
-
   color: #333333;
 `;
 const DIVB = styled("div")`
