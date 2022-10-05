@@ -158,6 +158,7 @@ const H1 = styled("h1")`
     line-height: 110%;
     text-align: center;
     color: #333333;
+    margin-left: 40px;
   }
 `;
 const P = styled("p")`
@@ -179,6 +180,7 @@ const P = styled("p")`
     line-height: 140%;
     text-align: center;
     color: #333333;
+    margin-left: 10px;
   }
 `;
 const DIVCONT = styled("div")`

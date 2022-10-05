@@ -115,7 +115,6 @@ const P = styled("p")`
   margin-left: 100px;
   @media only screen and (max-width: 414px) {
     width: 320px;
-    /* height: 88px; */
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 400;
@@ -123,7 +122,7 @@ const P = styled("p")`
     line-height: 140%;
     text-align: center;
     color: #333333;
-    margin-left: -10px;
+    margin-left: 10px;
   }
 `;
 const DIVIMG = styled("div")`
@@ -153,6 +152,7 @@ const PP = styled("p")`
     text-align: center;
     color: #333333;
     padding: 0px;
+    margin-left: 40px;
   }
 `;
 const DIVGGG = styled("div")`
@@ -169,9 +169,13 @@ const DIVO = styled("div")`
   padding-top: 60px;
   padding-left: 40px;
   @media only screen and (max-width: 414px) {
-    padding-left: 5px;
+    padding-left: 1px;
+    margin-left: -20px;
+    & p {
+      margin-left: -40px;
+      margin-top: 40px;
+    }
   }
-  
 `;
 const DIVP = styled("div")`
   width: 760px;
@@ -181,7 +185,7 @@ const DIVP = styled("div")`
   margin-top: 100px;
   @media only screen and (max-width: 414px) {
     width: 340px;
-    height: 576px;
+    height: 590px;
     background: #f0f6f4;
     border-radius: 12px;
   }

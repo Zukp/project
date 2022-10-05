@@ -42,16 +42,13 @@ const P = styled("p")`
     font-size: 16px;
     line-height: 150%;
     margin-top: 20px;
-    margin-left: 10px;
-    /* or 24px */
-
+    margin-left: 22px;
     text-align: center;
-
     color: #333333;
   }
 `;
 const DIVHeader = styled("div")`
-  width: 1280px;
+  width: 1380px;
 `;
 const PARA = styled("p")`
   /* width: 528px; */
@@ -61,7 +58,6 @@ const PARA = styled("p")`
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  /* identical to box height, or 30px */
   text-align: center;
   color: #333333;
   @media only screen and (max-width: 414px) {
@@ -74,6 +70,7 @@ const PARA = styled("p")`
     line-height: 150%;
     text-align: center;
     color: #333333;
+    margin-left: 20px;
   }
 `;
 const PARAGRAF = styled("p")`
@@ -96,6 +93,7 @@ const PARAGRAF = styled("p")`
     line-height: 10%;
     text-align: center;
     color: #ff3a44;
+    margin-left: 20px;
   }
 `;
 const PARF = styled("p")`
@@ -132,7 +130,7 @@ const DIV = styled("div")`
     height: 12px;
     background: linear-gradient(297.23deg, #a0ffb5 -12.98%, #bec1c0 115.22%);
     border-radius: 100px;
-    margin-left: 10px;
+    margin-left: 35px;
     margin-bottom: 36px;
   }
 `;

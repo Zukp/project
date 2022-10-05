@@ -51,9 +51,9 @@ const DIV = styled("div")`
   margin-bottom: 120px;
   @media only screen and (max-width: 414px) {
     margin-left: 5px;
-    margin-bottom: 1520px;
+    margin-bottom: 420px;
     width: 380px;
-    height: 830px;
+    height: 630px;
   }
 `;
 const DIVV = styled("div")`
@@ -80,8 +80,8 @@ const H1 = styled("h1")`
     font-size: 24px;
     line-height: 110%;
     text-align: center;
-
     color: #333333;
+    margin-left: 40px;
   }
 `;
 const H3 = styled("h3")`
@@ -103,6 +103,7 @@ const H3 = styled("h3")`
     line-height: 140%;
     text-align: center;
     color: #333333;
+    margin-left: 20px;
   }
 `;
 const P = styled("p")`
@@ -126,7 +127,7 @@ const P = styled("p")`
     font-size: 16px;
     line-height: 150%;
     text-align: center;
-
+    margin-left: 20px;
     color: #ff3a44;
     & span {
       color: black;
@@ -152,6 +153,7 @@ const Button = styled("button")`
     line-height: 150%;
     text-align: center;
     color: #ffffff;
+    margin-left: 20px;
   }
 `;
 const PP = styled("p")`
@@ -182,9 +184,10 @@ const DIVIMG = styled("div")`
   background-image: url("http://localhost:3000/static/media/Free.9c204b26430091f7e8e6.png");
   @media only screen and (max-width: 414px) {
     width: 380px;
-    height: 830px;
+    height: 620px;
     background: #f5f2f0;
     border-radius: 12px;
+    background-image: url("http://localhost:3000/static/media/Free.9c204b26430091f7e8e6.png");
   }
 `;
 const DIVB = styled("div")`
