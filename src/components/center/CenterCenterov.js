@@ -28,6 +28,7 @@ const DIV = styled("div")`
   margin-bottom: 120px;
   @media only screen and (max-width: 414px) {
     margin-left: 10px;
+    margin-bottom: 40px;
   }
 `;
 const DIVC = styled("div")`
@@ -51,7 +52,7 @@ const H1 = styled("h1")`
   line-height: 110%;
   color: #333333;
   @media only screen and (max-width: 414px) {
-    width: 41px;
+    width: 320px;
     height: 26px;
     font-family: "SF Pro Display";
     font-style: normal;
@@ -72,7 +73,7 @@ const H2 = styled("h2")`
   line-height: 150%;
   color: #333333;
   @media only screen and (max-width: 414px) {
-    width: 205px;
+    width: 320px;
     height: 24px;
     font-family: "SF Pro Display";
     font-style: normal;
@@ -117,7 +118,7 @@ const H3 = styled("h3")`
   line-height: 150%;
   color: #333333;
   @media only screen and (max-width: 414px) {
-    width: 215px;
+    width: 320px;
     height: 24px;
     font-family: "SF Pro Display";
     font-style: normal;
@@ -139,7 +140,7 @@ const H4 = styled("h4")`
   line-height: 150%;
   color: #333333;
   @media only screen and (max-width: 414px) {
-    width: 232px;
+    width: 320px;
     height: 24px;
     font-family: "SF Pro Display";
     font-style: normal;
@@ -163,7 +164,7 @@ const PP = styled("p")`
   border-bottom: 1px solid #e5e5e5;
   padding-bottom: 20px;
   @media only screen and (max-width: 414px) {
-    width: 284px;
+    width: 320px;
     height: 48px;
     font-family: "SF Pro Display";
     font-style: normal;

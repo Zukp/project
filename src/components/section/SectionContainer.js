@@ -117,7 +117,7 @@ const DIVC = styled("div")`
   width: 1320px;
   margin-bottom: 120px;
   @media only screen and (max-width: 414px) {
-    /* height: 1300px; */
+    margin-bottom: 40px;
   }
 `;
 const H1 = styled("h1")`
@@ -138,7 +138,7 @@ const H1 = styled("h1")`
     font-size: 24px;
     line-height: 110%;
     color: #333333;
-    margin-left: 50px;
+    margin-left: 75px;
   }
 `;
 const DIV = styled("div")`
@@ -165,6 +165,7 @@ const DIVD = styled("div")`
     background: #f5f5f5;
     border: 1px solid #e5e5e5;
     border-radius: 12px;
+    margin-bottom: 20px;
     & img {
       width: 340px;
       height: 200px;
@@ -245,12 +246,14 @@ const DIVH = styled("div")`
     height: 296px;
     border: 1px solid #e5e5e5;
     border-radius: 12px;
+    margin-bottom: 20px;
   }
 `;
 const DIX = styled("div")`
   display: flex;
   padding: 10px;
   @media only screen and (max-width: 414px) {
+    margin-bottom: 20px;
   }
 `;
 

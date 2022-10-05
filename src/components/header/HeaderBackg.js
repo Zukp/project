@@ -63,7 +63,7 @@ const DIV = styled("div")`
 
   @media only screen and (max-width: 414px) {
     margin: 10px;
-    height: 1200px;
+    height: 1140px;
     width: 360px;
     & img {
       display: block;
@@ -99,6 +99,9 @@ const PAR = styled("p")`
 `;
 const DIVCONT = styled("div")`
   padding: 50px;
+  @media only screen and (max-width: 414px) {
+    padding-top: 30px;
+  }
 `;
 const PARAGRAF = styled("p")`
   width: 698px;

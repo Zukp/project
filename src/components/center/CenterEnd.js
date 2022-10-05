@@ -167,6 +167,7 @@ const PP = styled("p")`
   text-decoration-line: underline;
   color: #333333;
   @media only screen and (max-width: 414px) {
+    width: 273px;
     height: 48px;
     font-family: "SF Pro Display";
     font-style: normal;
@@ -176,6 +177,7 @@ const PP = styled("p")`
     text-align: center;
     text-decoration-line: underline;
     color: #333333;
+    margin-left: 44px;
   }
 `;
 const DIVIMG = styled("div")`

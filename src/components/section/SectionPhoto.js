@@ -54,7 +54,6 @@ const IMGD = styled("img")`
 `;
 const Du = styled("div")`
   margin: 10px;
-
   & img {
     margin-left: 10px;
     @media only screen and (max-width: 414px) {
@@ -110,7 +109,7 @@ const DIVICON = styled("div")`
     height: 102px;
     background: #ffffff;
     border-radius: 12px;
-    margin-left: 10px;
+    margin-left: -1px;
     margin-top: 10px;
     display: flex;
     flex-direction: column-reverse;
@@ -137,6 +136,7 @@ const DIV = styled("div")`
     margin: 10px;
     padding: 10px;
     background: #f5f5f5;
+    width: 330px;
   }
 `;
 const DIB = styled("div")`

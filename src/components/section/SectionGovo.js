@@ -66,6 +66,8 @@ const PARAGR = styled("p")`
     font-size: 20px;
     line-height: 140%;
     color: #333333;
+    margin-left: 20px;
+    text-align: center;
   }
 `;
 const Button = styled("button")`
@@ -92,7 +94,6 @@ const Button = styled("button")`
   }
 `;
 const P = styled("p")`
-  /* width: 373px; */
   height: 24px;
   font-family: "SF Pro Display";
   font-style: normal;
@@ -104,7 +105,6 @@ const P = styled("p")`
   text-align: center;
   @media only screen and (max-width: 414px) {
     width: 273px;
-    /* height: 48px; */
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 400;
@@ -113,6 +113,7 @@ const P = styled("p")`
     text-align: center;
     text-decoration-line: underline;
     color: #333333;
+    margin-left: 25px;
   }
 `;
 

@@ -91,7 +91,7 @@ const H1 = styled("h1")`
   margin-left: -100px;
   @media only screen and (max-width: 414px) {
     width: 368px;
-    /* height: 26px; */
+    height: 26px;
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 700;
@@ -170,6 +170,7 @@ const DIVO = styled("div")`
   padding-left: 40px;
   @media only screen and (max-width: 414px) {
     padding-left: 1px;
+    padding-top: 10px;
     margin-left: -20px;
     & p {
       margin-left: -40px;
@@ -185,9 +186,10 @@ const DIVP = styled("div")`
   margin-top: 100px;
   @media only screen and (max-width: 414px) {
     width: 340px;
-    height: 590px;
+    height: 550px;
     background: #f0f6f4;
     border-radius: 12px;
+    margin-top: 40px;
   }
 `;
 const PO = styled("p")`

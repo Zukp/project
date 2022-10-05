@@ -60,7 +60,7 @@ const DIC = styled("div")`
   background-image: url("http://localhost:3000/static/media/Rectangle%20572.0c245b4ded06a4f646d6.png");
   border-radius: 12px;
   @media only screen and (max-width: 414px) {
-    height: 809px;
+    height: 489px;
   }
 `;
 const P = styled("p")`
@@ -83,7 +83,8 @@ const P = styled("p")`
     font-weight: 700;
     font-size: 24px;
     line-height: 110%;
-    color: #ffffff;
+    color: black;
+    margin-left: 150px;
   }
 `;
 const H1 = styled("h1")`
@@ -97,14 +98,15 @@ const H1 = styled("h1")`
   color: #ffffff;
   margin-left: 600px;
   @media only screen and (max-width: 414px) {
-    width: 101px;
+    width: 201px;
     height: 22px;
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 140%;
-    color: #ffffff;
+    color: black;
+    margin-left: 170px;
   }
 `;
 const DIVK = styled("div")`
@@ -113,7 +115,9 @@ const DIVK = styled("div")`
   @media only screen and (max-width: 414px) {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 751px;
+    margin-left: -4px;
   }
 `;
 const DIVJ = styled("div")`
