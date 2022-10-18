@@ -1,9 +1,10 @@
 import React from "react";
-import All from "./components/All";
+import Burgers from "./components/dodo/Burgers";
+
 function App() {
   return (
     <div>
-      <All />
+    <Burgers />
     </div>
   );
 }
